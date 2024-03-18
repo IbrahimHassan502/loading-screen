@@ -1,0 +1,21 @@
+/* ========== moving background styles ======= */
+.bg-container {
+  position: fixed;
+  z-index: -1;
+  /* filter: blur(20px); */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: lightblue;
+  top: 0;
+  left: 0;
+}
+
+.bgDiv {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  position: fixed;
+  border: 1px solid;
+  transform: translate(-50%, -50%);
+  transition-duration: 15s;
+}
